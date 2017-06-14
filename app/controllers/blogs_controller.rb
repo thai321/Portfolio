@@ -1,6 +1,6 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
-
+  layout "blog" # got to layouts directory and find the file name blog.html
   # GET /blogs # add new branch
   # GET /blogs.json
   def index
