@@ -1,7 +1,7 @@
 class BlogsController < ApplicationController
   before_action :set_blog, only: [:show, :edit, :update, :destroy, :toggle_status]
 
-  # GET /blogs
+  # GET /blogs # add new branch
   # GET /blogs.json
   def index
     @blogs = Blog.all
