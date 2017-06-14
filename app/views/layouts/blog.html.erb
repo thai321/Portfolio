@@ -18,15 +18,11 @@
 
     <%= login_helper %>
 
-    <%= yield %> 
-<!-- yield is very important -->
-
+    <%= yield %> <!-- yield is very important -->
 
    	<%= render "shared/nav", location: 'bottom' %>
 
-    <% if session[:source] %>
-      <p>Thanks for visiting me from <%= session[:source]%></p>
-    <% end %>
+    <%= source_helper("blog") %>
 
   </body>
 </html>
