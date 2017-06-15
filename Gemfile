@@ -58,3 +58,5 @@ gem 'devise', '~> 4.3' # Flexible authentication solution for Rails with Warden
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 gem 'jquery-rails'
+
+gem 'nguyen_view_tool', git: 'https://github.com/thai321/nguyen-view-tool.git'

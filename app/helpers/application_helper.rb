@@ -19,4 +19,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end 
   end
+
+  def copyright_helper
+    @copyright = NguyenViewTool::Renderer.copyright 'Thai Nguyen', 'All rights reserved'
+  end
 end
