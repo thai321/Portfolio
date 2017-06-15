@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'pry-byebug'
+  gem 'pry-byebug' # added pry
 end
 
 group :development do
@@ -51,6 +51,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+
+# Add some gems here
+
 gem 'friendly_id', '~> 5.1.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 
 gem 'devise', '~> 4.3' # Flexible authentication solution for Rails with Warden
@@ -62,3 +65,7 @@ gem 'jquery-rails'
 gem 'nguyen_view_tool', git: 'https://github.com/thai321/nguyen-view-tool.git'
 
 gem 'petergate', '~> 1.7', '>= 1.7.5'
+
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
+
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
