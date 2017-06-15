@@ -1,7 +1,6 @@
 <h1>Portfolio Items</h1>
 
-<a href="portfolis/new">Create New Item</a>
-<%= link_to "Create New Item", new_portfoli_path %>
+<%= link_to "Create New Item", new_portfoli_path if logged_in?(:site_admin) %>
 							<!-- /portfolis/new -->
 
 
