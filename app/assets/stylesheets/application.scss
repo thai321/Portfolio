@@ -184,3 +184,17 @@ body {
   text-align: right;
 }
 
+
+/*For any card class that is nested inside the login class*/
+.login > .card {
+  width: 23rem;
+  margin: 0 auto;
+  float: none;
+}
+
+
+
+
+
+
+
