@@ -6,7 +6,6 @@ class BlogsController < ApplicationController
   def index
     @blogs = Blog.all
     @page_title = "My Portfolio Blog"
-    binding.pry
   end
 
   # GET /blogs/1
