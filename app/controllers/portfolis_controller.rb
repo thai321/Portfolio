@@ -12,6 +12,14 @@ class PortfolisController < ApplicationController
 		@angular_portfolio_items = Portfoli.anuglar
 	end
 
+	def sort
+		params[:order].each do |key, value|
+			Portfoli.find(value[:id]).update(position: value[:position])
+		end
+
+		render nothing: true
+	end
+
 	def new
 		@portfolio_item = Portfoli.new
 		3.times{ @portfolio_item.technologies.build }
