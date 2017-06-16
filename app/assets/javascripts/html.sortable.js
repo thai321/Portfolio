@@ -1,6 +1,5 @@
 // update //= require html.sortable.js to application.js file
 
-alert("Hello man");
 
 ;(function(root, factory) {
   if (typeof define === 'function' && define.amd) {
