@@ -159,7 +159,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 55rem;
+    width: 75rem;
   }
 }
 
@@ -220,4 +220,19 @@ body {
 .responsive-video {
 max-width: 100%;  
 height: auto;  
+}
+
+
+.tech-news {
+  color: black;
+  margin: 20px;
+}
+
+.tech-news a {
+  color: green;
+}
+
+/* When the card class nested inside the tech-news class */
+.tech-news > .card {
+  padding: 30px;
 }
