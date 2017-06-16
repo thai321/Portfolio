@@ -10,6 +10,7 @@ Rails.application.routes.draw do
 
   get 'about-me', to: 'pages#about'	# get 'pages/about'
   get 'contact', to: 'pages#contact'	# get 'pages/contact'
+  get 'tech-news', to: 'pages#tech_news' # twitter API
 
   resources :blogs do
   	member do
