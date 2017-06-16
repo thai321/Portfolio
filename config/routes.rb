@@ -18,6 +18,5 @@ Rails.application.routes.draw do
   	end												#                       id
   end
 
-
   root to: 'pages#home'  # can call anything , # get 'pages/home'
 end
