@@ -76,4 +76,6 @@ gem 'mini_magick', '~> 4.7', '>= 4.7.1'
 gem 'carrierwave', '~> 1.1'
 gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 
-gem 'carrierwave-aws'
+gem 'carrierwave-aws' # fix aws connection problem with rails console and server
+
+gem 'cocoon', '~> 1.2', '>= 1.2.9'

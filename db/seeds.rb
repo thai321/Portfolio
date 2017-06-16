@@ -98,3 +98,5 @@ end
 puts "3 technologies created!"
 
 
+User.create!(name: "Thai Nguyen", email: "test@test.com", roles: :site_admin, password: "123456")
+puts "1 site admin has created"
