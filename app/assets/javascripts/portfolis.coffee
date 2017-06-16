@@ -12,9 +12,9 @@ set_positions = ->
 	return
 
 
-func = ->
+func = ->  # when ready to load
 	$('.sortable').sortable()
-	$('.sortable').sortable().bind 'sortupdate', (e, ui) ->
+	$('.sortable').sortable().bind 'sortupdate', (e, ui) -> # when click and drag the box
 		updated_order = []
 		set_positions()
 		$('.card').each (i) ->
