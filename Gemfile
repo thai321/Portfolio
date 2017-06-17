@@ -35,7 +35,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'friendly_id', '~> 5.1.0' # Note: You MUST use 5.0.0 or greater for Rails 4.0+
 gem 'devise', '~> 4.3' # Flexible authentication solution for Rails with Warden
-gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+# gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'jquery-rails'
 gem 'nguyen_view_tool', git: 'https://github.com/thai321/nguyen-view-tool.git'
 gem 'petergate', '~> 1.7', '>= 1.7.5'
@@ -52,3 +52,8 @@ gem 'twitter', '~> 6.1'
 gem 'redis', '~> 3.3', '>= 3.3.3' # require cable in application.js
 gem 'redcarpet', '~> 3.3', '>= 3.3.4' # Markdown
 gem 'coderay', '~> 1.1', '>= 1.1.1' #syntax highlighting
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.1.0'
+end
