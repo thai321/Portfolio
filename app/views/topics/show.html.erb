@@ -1,0 +1,13 @@
+<div class="col-sm-8 blog-main">
+
+	<h1><%= @topic.title %></h1>
+
+	<%= paginate @blogs %>  <!-- Kaminari gem -->
+
+  <!-- < % @blogs.each do |blog| %> -->
+  <%= render @blogs %> <!-- look for _blog.html.erb in same folder-->
+
+  <%= paginate @blogs %>  <!-- Kaminari gem -->
+
+</div>
+
