@@ -5,8 +5,8 @@
 	<p>
 		<%= @blog.topic.title %>
 	</p>
-
-	<p><%= @blog.body %></p>
+			<!-- markdown helper from blogs helper  -->
+	<p><%= markdown @blog.body %></p>
 
 	<!-- comment form to write a comment -->
 	<%= render 'comments/comment_form' %>
