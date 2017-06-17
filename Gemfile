@@ -49,3 +49,5 @@ gem 'carrierwave-aws' # fix aws connection problem with rails console and server
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
 gem 'gritter', '~> 1.2' # nice notification box
 gem 'twitter', '~> 6.1'
+gem 'redis', '~> 3.3', '>= 3.3.3' # require cable in application.js
+
