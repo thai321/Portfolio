@@ -19,5 +19,7 @@ Rails.application.routes.draw do
   	end												#                       id
   end
 
+  mount ActionCable.server => '/cable'
+
   root to: 'pages#home'  # can call anything , # get 'pages/home'
 end
