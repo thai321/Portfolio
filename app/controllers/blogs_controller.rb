@@ -15,7 +15,7 @@ class BlogsController < ApplicationController
   # GET /blogs/1.json
   def show
     #query the Blog to get the comment for this blog
-    @blog = Blog.includes(:comment).friendly.find(params[:id])
+    @blog = Blog.includes(:comments).friendly.find(params[:id])
     @comment = Comment.new
 
     @page_title = @blog.title
